@@ -1,0 +1,14 @@
+<suite name="Suite">  
+<listeners>  
+<listener class-name="com.allBirds.qa.listener.CustomListener"/>  
+</listeners>  
+<test name="Listeners_program">  
+<classes>  
+<!-- <class name="com.allBirds.qa.testcases.SearchPageTest"></class>  
+<class name="com.allBirds.qa.testcases.HomePageTest"></class>   -->
+<class name="com.allBirds.qa.testcases.LoginPageTest"></class>  
+<!-- <class name="com.allBirds.qa.testcases.SignupPageTest"></class>   -->
+</classes>  
+</test>  
+</suite>   
+<!-- Suite -->  

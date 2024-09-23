@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.allBirds.qa.listener.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Listeners_program(failed)">
+    <classes>
+      <class name="com.allBirds.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="quit"/>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.allBirds.qa.testcases.LoginPageTest -->
+      <class name="com.allBirds.qa.testcases.HomePageTest">
+        <methods>
+          <include name="viewMensProduct"/>
+          <include name="viewWomensProduct"/>
+          <include name="shutdown"/>
+          <include name="searchItems"/>
+          <include name="setup"/>
+          <include name="viewSales"/>
+          <include name="viewAccount"/>
+          <include name="viewCart"/>
+          <include name="viewSocks"/>
+        </methods>
+      </class> <!-- com.allBirds.qa.testcases.HomePageTest -->
+      <class name="com.allBirds.qa.testcases.SignupPageTest">
+        <methods>
+          <include name="signupTest"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.allBirds.qa.testcases.SignupPageTest -->
+      <class name="com.allBirds.qa.testcases.SearchPageTest">
+        <methods>
+          <include name="searchContents"/>
+          <include name="setup"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.allBirds.qa.testcases.SearchPageTest -->
+    </classes>
+  </test> <!-- Listeners_program(failed) -->
+</suite> <!-- Failed suite [Suite] -->
